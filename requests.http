@@ -1,0 +1,23 @@
+### Create a book
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "Spring Boot Basics",
+  "author": "John Doe"
+}
+
+###
+
+### Get all books
+GET http://localhost:8080/api/books
+
+###
+
+### Get book by ID
+GET http://localhost:8080/api/books/1
+
+###
+
+### Delete book by ID
+DELETE http://localhost:8080/api/books/1
