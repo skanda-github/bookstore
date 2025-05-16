@@ -21,3 +21,6 @@ GET http://localhost:8080/api/books/1
 
 ### Delete book by ID
 DELETE http://localhost:8080/api/books/1
+
+### Swagger URL
+http://localhost:8080/swagger
